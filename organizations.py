@@ -2,6 +2,7 @@ from .users import *
 import csv
 import os.path
 
+
 class School:
 	def __init__(self, name=None, address=None, phone=None, email="",
 	num_stud=None, num_teachers=None):
